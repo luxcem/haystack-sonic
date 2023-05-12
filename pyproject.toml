@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "haystack-sonic"
+version = "0.1.0"
+description = ""
+authors = ["luxcem <a@luxcem.fr>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+haystack = "^0.42"
+sonic-client = "^0.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
